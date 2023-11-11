@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    background-image: url(nexflix_signin.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.logo {
+    max-width: 200px; /* Example: Set maximum width for the logo */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.6); /* Black background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sign-in-form {
+    text-align: center;
+    color: white;
+}
+
+/* Style for form elements */
+.sign-in-form input,
+.sign-in-form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+  
+  .sign-in-form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-form button {
+    width: 80%;
+    background-color:red;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.need-help{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    color: white;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.info label {
+    margin-right: 20px; /* Adjust the margin between the labels as needed */
+}
+
+
+  
